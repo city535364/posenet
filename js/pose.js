@@ -15,8 +15,8 @@
  * =============================================================================
  */
 
-const videoWidth = screen.height * 0.2;
-const videoHeight = screen.width * 0.2;
+const videoWidth = screen.width;  //screen.height * 0.2
+const videoHeight = screen.height;  //screen.width * 0.2
 //const videoHeight = 288;
 
 function isAndroid() { return /Android/i.test(navigator.userAgent); }
